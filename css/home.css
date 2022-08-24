@@ -1,0 +1,230 @@
+img {
+	display: block;
+}
+
+.homeTop {
+	/* height: 623px; */
+	background: url('../img/homeContent.png') no-repeat center;
+	background-size: cover;
+	padding: 60px 40px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	position: relative;
+}
+
+.homeMsg {
+	margin-top: 50px;
+	font-size: 16px;
+	line-height: 37px;
+}
+
+.homeStart {
+	margin-top: 65px;
+}
+
+.homeStartBtn {
+	width: 100%;
+	height: 40px;
+	border: none;
+	background-color: #237FF8;
+	border-radius: 8px;
+	color: #FFFFFF;
+}
+
+.downIcon {
+	position: absolute;
+	bottom: 6px;
+}
+
+/***/
+.homeCenter {
+	background-color: #090D16;
+	padding: 20px;
+}
+
+.centerTitle {
+	color: #FFF;
+	padding: 40px 0;
+	font-size: 22px;
+	display: flex;
+}
+
+.synopsisTitle{
+	padding: 30px 0;
+}
+
+.synopsisMsg {
+	font-size: 14px
+}
+
+.flexRightText {
+	background: linear-gradient(to bottom, #0896CB, #3951FA00) no-repeat;
+	/* opacity: 0.5; */
+	background-size: 100% 20%;
+	background-position-y: 100%;
+}
+
+.flexRightIcon {
+	flex: 1;
+	text-align: right;
+}
+
+.flexRightIcon img {
+	display: inline;
+}
+
+.content .rightIcon{
+	text-align: right;
+	width: 100%;
+}
+
+.content .rightIcon img{
+	display: revert;
+}
+
+.centerMsg {
+	color: #B9B9B9;
+	line-height: 25px;
+}
+
+.synopsisWhiteBook {
+	margin: 30px 0 10px;
+	padding: 15px;
+	display: flex;
+	border: 1px solid #FFFFFF;
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+/**产品*/
+.productList {}
+
+.productItem {
+	padding: 15px;
+	border: 1px solid #707070;
+	border-radius: 12px;
+	margin-bottom: 40px;
+}
+
+.productItemTitle {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.productItemMsg {
+	color: #B9B9B9;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-bottom: 18px;
+	line-height: 18px;
+}
+
+.productItemDetils {
+	display: flex;
+	align-items: flex-end;
+}
+
+.productItemDetilsImg{
+	flex: 1;
+}
+
+.productItemDetilsBtn {
+	margin-left: 45px;
+	margin-bottom: 12px;
+	width: 95px;
+	height: 30px;
+	border-radius: 15px;
+	border: none;
+	background: linear-gradient(to bottom, #039FC6FF, #3E4BFFFF);
+	color: #FFFFFF;
+}
+
+
+/*赚币*/
+.earnMoney {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.earnMoneyMsgTitle {
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-bottom: 12px;
+}
+
+.earnMoneyMsgText {
+	font-size: 12px;
+	color: #CCCCCC;
+	margin-bottom: 30px;
+}
+
+.otherModulesItem {
+	padding: 15px 23px;
+	border: 1px solid #707070;
+	border-radius: 12px;
+	margin-bottom: 40px;
+}
+
+.otherModulesItemTitle {
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-bottom: 11px;
+}
+
+.otherModulesItemMsg {
+	color: #B9B9B9;
+	font-size: 12px;
+	height: 36px;
+}
+
+.otherModulesItemImg {
+	display: flex;
+	align-items: end;
+}
+
+
+.virtualModulesItem {
+	padding: 18.5px 20px;
+	border: 1px solid #707070;
+	border-radius: 12px;
+	margin-bottom: 40px;
+}
+
+.virtualModulesItemTop {
+	display: flex;
+	font-size: 25px;
+	color: #FFFFFF;
+	align-items: center;
+	padding: 10px;
+}
+
+.virtualModulesItemTitle {
+	flex: 1;
+}
+
+.virtualModulesItemMsg {
+	font-size: 12px;
+	color: #B9B9B9;
+	margin-bottom: 20px;
+	line-height: 21px;
+}
+
+.contactList{
+	padding-bottom: 50px;
+}
+
+.contactItem {
+	font-size: 14px;
+	padding: 20px 0 50px;
+}
+
+.contactItemIcon img {
+	margin: 0 auto 20px;
+}
+
+.contactItemAddress{
+	text-align: center;
+	color: #B9B9B9;
+}
+

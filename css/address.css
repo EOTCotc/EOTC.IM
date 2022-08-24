@@ -1,0 +1,44 @@
+.addressContent{
+	background-color: #fff;
+}
+
+a,p{
+	color: #237FF8;
+}
+
+.addressItem{
+	margin: 15px 16px 0;
+}
+
+.bule{
+	margin-right: 8px;
+}
+
+.addressItemTop{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 0px;
+	border-bottom: 1px solid #F3F4F5;
+}
+
+.addressItemTopLeft{
+	flex: 1;
+	font-size: 16px;
+}
+
+.addressItemList{
+	display: none;
+	font-size: 14px;
+}
+
+.addressNameItem{
+	padding: 12px 10px;
+	margin-top: 10px;
+	border-bottom: 1px solid #F3F4F5;
+	word-break: break-word;
+}
+
+.addressItemTitle{
+	margin-bottom: 8px;
+}

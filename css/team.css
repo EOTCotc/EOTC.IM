@@ -1,0 +1,67 @@
+.teamContent {
+	background-color: #090D16FF;
+}
+
+.teamTop {
+	background: url('../img/teamTopBc.png') no-repeat center;
+	background-size: cover;
+	padding: 25px 25px 0px 15px;
+	height: 211px;
+	box-sizing: border-box;
+}
+
+.teamTop .title {
+	padding: 20px 0 30px
+}
+
+.teamTop .msg {
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 24px;
+}
+
+.teamCenter .list {
+	padding: 25px 15px 40px;
+	display: flex;
+	flex-flow: row wrap;
+	align-content: flex-start;
+}
+
+.teamCenter .list .item {
+	flex: 0 0 48%;
+	box-sizing: border-box;
+	height: 194px;
+	color: #FFFFFF;
+	border-radius: 0 10px 10px 10px;
+	border: 1px solid #848688;
+	padding: 15px 12px 20px;
+	margin-bottom: 20px;
+	line-height: 20px;
+	position: relative;
+}
+
+.teamCenter .list .item .eotcText {
+	font-size: 12px;
+	margin-bottom: 7px;
+}
+
+.teamCenter .list .item .itemTitle {
+	font-size: 14px;
+	margin-bottom: 18px;
+}
+
+.teamCenter .list .item .itemMsg {
+	height: 100px;
+	color: #B9B9B9;
+	font-size: 12px
+}
+
+.teamCenter .list .item .rightTopBule {
+	position: absolute;
+	top: 0;
+	right: 12px
+}
+
+.teamCenter .list .item:nth-of-type(odd) {
+	margin: 0 4% 0 0;
+}

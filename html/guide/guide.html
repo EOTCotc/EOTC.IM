@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>新手指引</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <link href="../../css/guide/guide.css?v=0.11" rel="stylesheet" />
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+</head>
+
+<body>
+  <div id="big">
+    <div id="head">
+      <div class="headTop">
+        <div class="headLeft">
+          <div class="headLeftDiv" onclick="goHome()">
+            <img src="../../img/logo_lan.svg" width="21px">
+            <div class="headLeftText">EOTC</div>
+          </div>
+        </div>
+        <div class="headRight" onclick="goHistory()">
+          <div class="headRightText">返回</div>
+          <div class=""><img src="../../img/return.png"></div>
+        </div>
+      </div>
+      <div class="headCenter">
+        <div class="headCenterIcon"><img src="../../img/guide/guideTopLeft.png"></div>
+        <div class="headCenterText">新手指引</div>
+      </div>
+      <div class="headMsg">
+        如何在EOTC上完成所有操作的详细演练
+      </div>
+    </div>
+
+    <div id="content">
+      <div class="content">
+        <div class="productCenter">
+          <div class="productCenterTitleList">
+            <div class="productCenterTitle">
+              <span class="productCenterTitleText active">OTC交易所</span>
+            </div>
+            <div class="productCenterTitle">
+              <span class="productCenterTitleText">链上理财赚币</span>
+            </div>
+            <!-- <div class="productCenterTitle">
+								<span class="productCenterTitleText">币币交易所</span>
+							</div>
+							<div class="productCenterTitle">
+								<span class="productCenterTitleText">借贷交易所</span>
+							</div>
+							<div class="productCenterTitle">
+								<span class="productCenterTitleText">合约交易所</span>
+							</div>
+							<div class="productCenterTitle">
+								<span class="productCenterTitleText">身份系统</span>
+							</div>
+							<div class="productCenterTitle">
+								<span class="productCenterTitleText">应用系统</span>
+							</div>
+							<div class="productCenterTitle">
+								<span class="productCenterTitleText">NFT</span>
+							</div>
+							<div class="productCenterTitle">
+								<span class="productCenterTitleText">元宇宙</span>
+							</div>
+							<div class="productCenterTitle">
+								<span class="productCenterTitleText">DAO</span>
+							</div> -->
+          </div>
+          <div class="productCenterContentList">
+            <div class="productCenterContent active">
+              <div class="contentList">
+                <!-- <div class="contentItem" onclick="goDetail(1)">
+										<div class="contentItemImg"><img src="../../img/guide/guideContent1.png"></div>
+										<div class="contentItemText">成为仲裁员流程</div>
+									</div>
+									<div class="contentItem" onclick="goDetail(2)">
+										<div class="contentItemImg"><img src="../../img/guide/bankImg.png"></div>
+										<div class="contentItemText">银行卡电子回单获取</div>
+									</div>
+									<div class="contentItem" onclick="goDetail(3)">
+										<div class="contentItemImg"><img src="../../img/guide/wechartImg.png"></div>
+										<div class="contentItemText">支付宝转账电子凭证获取</div>
+									</div>
+									<div class="contentItem" onclick="goDetail(4)">
+										<div class="contentItemImg"><img src="../../img/guide/alipayImg.png"></div>
+										<div class="contentItemText">微信转账电子凭证获取</div>
+									</div> -->
+                <div class="contentItem" onclick="goDetail(0101001)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-login.png" width="100%"></div>
+                  <div class="contentItemText">登录注册</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0101002)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-buysell.png" width="100%"></div>
+                  <div class="contentItemText">如何挂买挂卖(委托单)</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0101003)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-processpurchase.png" width="100%"></div>
+                  <div class="contentItemText">购买流程</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0101004)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-sellingprocess.png" width="100%">
+                  </div>
+                  <div class="contentItemText">出售流程</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0101005)">
+                  <div class="contentItemImg"><img src="../../img/guide/DIDid.png" width="100%"></div>
+                  <div class="contentItemText">DID身份认证流程</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0101006)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-didcheck.png" width="100%"></div>
+                  <div class="contentItemText">DID体系如何审核</div>
+                </div>
+              </div>
+            </div>
+            <div class="productCenterContent">
+              <div class="contentList">
+                <div class="contentItem" onclick="goDetail(0102001)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-staking1.png" width="100%"></div>
+                  <div class="contentItemText">活期质押</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0102002)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-staking2.png" width="100%"></div>
+                  <div class="contentItemText">活期赎回</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0102003)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-staking3.png" width="100%"></div>
+                  <div class="contentItemText">定期质押</div>
+                </div>
+                <div class="contentItem" onclick="goDetail(0102004)">
+                  <div class="contentItemImg"><img src="../../img/guide/guide-staking4.png" width="100%"></div>
+                  <div class="contentItemText">定期赎回</div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="productCenterContent">
+								
+							</div>
+							<div class="productCenterContent">
+								
+							</div>
+							
+							<div class="productCenterContent">
+								
+							</div>
+							<div class="productCenterContent">
+								
+							</div>
+							<div class="productCenterContent">
+								
+							</div>
+							<div class="productCenterContent">
+								
+							</div>
+							<div class="productCenterContent">
+								
+							</div>
+							<div class="productCenterContent">
+								
+							</div> -->
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div id="bottom">
+      <div class="bottom">
+        <div class="bottomLeft"><a href="../../index.html">eotc.im</a></div>
+        <div class="bottomRight">
+          <div class="">简体中文</div>
+          <div class=""><img src="../../img/down.png"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="../../js/rem.js"></script>
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/guide/guide.js?v=0.11"></script>
+
+</html>

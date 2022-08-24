@@ -1,0 +1,129 @@
+.productContent {
+	background-color: #090D16FF;
+}
+
+.productTop {
+	background: url('../img/teamTopBc.png') no-repeat center;
+	background-size: cover;
+	padding: 25px 25px 0px 15px;
+	height: 211px;
+	box-sizing: border-box;
+}
+
+.productTop .title {
+	padding: 20px 0 30px
+}
+
+.productTop .msg {
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 24px;
+}
+
+.productCenter {
+	color: #FFFFFF;
+	padding: 15px 20px;
+	background-color: #090D16;
+}
+
+.productCenterTitleList {
+	display: flex;
+	padding: 10px 0;
+	border-bottom: 1px solid #3a3d45;
+	font-size: 14px;
+	overflow-x: scroll;
+}
+
+.productCenterTitle:not(:last-of-type) {
+	flex: 1;
+}
+
+.productCenterTitle .productCenterTitleText {
+	color: #B9B9B9;
+	padding: 10px 0;
+	margin-right: 30px;
+	white-space: nowrap;
+}
+
+.productCenterTitle .productCenterTitleText.active {
+	color: #FFFFFF;
+	border-bottom: 2px solid #237FF8;
+}
+
+
+.productCenterContent {
+	padding: 20px 0 30px;
+	font-size: 12px;
+	display: none;
+}
+
+.productCenterContent.active {
+	display: block;
+}
+
+.contentItemTop {
+	display: flex;
+}
+
+.contentItemTop>div {
+	flex: 1;
+}
+
+.contentItemTopLeft {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contentItemTopText {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.contentItemTopBtn {
+	margin-top: 25px;
+}
+
+.details {
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	background-color: #237FF8;
+	border: 1px solid #090D16;
+	border-radius: 4px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.contentTitle {
+	margin-top: 15px
+}
+
+.contentTitle,
+.contentCenter {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.contentCenter {
+	display: none
+}
+
+.contentCenter .moreContent {
+	margin-top: 20px;
+}
+
+.contentMore {
+	display: flex;
+	align-items: flex-end
+}
+
+.contentMore .text {
+	margin: 20px 5px 0 0;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.contentMore img {
+	line-height: 20px;
+}
