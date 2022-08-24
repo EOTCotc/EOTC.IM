@@ -1,0 +1,55 @@
+.bottomContent{
+	background-color: #1B2945;
+	font-size: 14px;
+	color: #DCDCDC;
+}
+
+.bottomContent>div{
+	padding: 20px 15px;
+}
+
+.bottomContent>div:not(:first-of-type){
+	border-top: 1px solid #414857;
+}
+
+.bottomContent .bottomContentTopText>div{
+	margin-top: 10px;
+}
+.bottomContent .bottomContentTopIcon{
+	margin-top: 26px;
+	display: flex;
+}
+
+.bottomContent .bottomContentTopIcon>div{
+	width: 20px;
+	height: 20px;
+	margin-right: 30px;
+}
+
+.bottomContent .bottomContentCenter{
+	display: flex;
+}
+
+.bottomContent .bottomContentCenterColumn:not(:last-of-type){
+	flex: 1;
+}
+
+.bottomContent .bottomCenterTitle{
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.bottomContent .bottomCenterMsg{
+	margin-bottom: 15px;
+	font-size: 12px;
+	color: #DCDCDC;
+}
+
+.bottomContent .bottomContentCopy{
+	display: flex;
+}
+.bottomContent .bottomCopyText{
+	margin-left: 8px;
+}
+

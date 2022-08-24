@@ -1,0 +1,21 @@
+.productContent {
+	background-color: #090D16FF;
+}
+
+.productTop {
+	background: url('../img/teamTopBc.png') no-repeat center;
+	background-size: cover;
+	padding: 25px 25px 0px 15px;
+	height: 211px;
+	box-sizing: border-box;
+}
+
+.productTop .title {
+	padding: 20px 0 30px
+}
+
+.productTop .msg {
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 24px;
+}

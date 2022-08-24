@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>EOTC官网</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/head.css" rel="stylesheet" />
+		<link href="css/bottom.css" rel="stylesheet" />
+		<link href="css/home.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="img/favicon.ico">
+	</head>
+	<body>
+		<div id="head"></div>
+
+		<div id="content">
+			<div class="content">
+				<div class="homeTop">
+					<div class="homeWelcome">
+						<img src="img/welcome.png" alt="">
+					</div>
+					<div class="homeMsg">
+						<div>元宇宙的经济入口</div>
+						<div>通往虚拟世界的信任桥梁</div>
+						<div>全球首个去中心化OTC交易所</div>
+					</div>
+					<div class="homeStart">
+						<a href="https://trx.eotc.im/"><button class="homeStartBtn">启动dapp</button></a>
+					</div>
+					<div class="downIcon">
+						<img src="img/downIcon.png" alt="">
+					</div>
+				</div>
+				<div class="homeCenter">
+					<div class="synopsis">
+						<div class="synopsisTitle centerTitle">
+							<div class="flexRightText">EOTC简介</div>
+							<div class="flexRightIcon"><img src="img/rightIcon.png" alt=""></div>
+						</div>
+						<div class="synopsisMsg centerMsg">
+							EOTC是全球首个去中心化OTC交易所，是通往虚拟世界的信任桥梁，是未来元宇宙的经济入口。EOTC以安全第一为服务宗旨，希望成为全球用户量最多交易量最大的去中心化交易所，为现实世界的用户架起通往虚拟世界的信任桥梁。
+						</div>
+						<a href="whiteBook.pdf">
+							<div class="synopsisWhiteBook centerMsg">
+								<div>白皮书</div>
+								<div class="flexRightIcon"><img src="img/rightIcon.png" alt=""></div>
+							</div>
+						</a>
+					</div>
+					<div class="product">
+						<div class="productTitle centerTitle">
+							<div class="flexRightText">EOTC产品</div>
+						</div>
+						<div class="productList">
+							<div class="productItem">
+								<div class="productItemTitle">去中心化OTC交易所</div>
+								<div class="productItemMsg">EOTC是全球首个去中心化的OTC交易所，EOTC是全球首个去中心化的OTC交易所。OTC交易所</div>
+								<div class="productItemDetils">
+									<div class="productItemDetilsImg">
+										<img src="img/otcImg.png">
+									</div>
+									<div class="productItemDetilsBtnDiv">
+										<button class="productItemDetilsBtn" onclick="goProduct(0)">详情</button>
+									</div>
+								</div>
+							</div>
+							<div class="productItem">
+								<div class="productItemTitle">去中心化币币交易所</div>
+								<div class="productItemMsg">EOTCSWAP去中心化币币交易所建立在各个公链上的自动做市交易协议，期望为大家建立一个无需信任及高…</div>
+								<div class="productItemDetils">
+									<div class="productItemDetilsImg">
+										<img src="img/coinsImg.png">
+									</div>
+									<div class="productItemDetilsBtnDiv">
+										<button class="productItemDetilsBtn" onclick="goProduct(1)">详情</button>
+									</div>
+								</div>
+							</div>
+							<div class="productItem">
+								<div class="productItemTitle">去中心化借贷交易所</div>
+								<div class="productItemMsg">EOTC去中心化借贷交易所是建立在多个区块链公链上的去中心化借贷协议。</div>
+								<div class="productItemDetils">
+									<div class="productItemDetilsImg">
+										<img src="img/loanImg.png">
+									</div>
+									<div class="productItemDetilsBtnDiv">
+										<button class="productItemDetilsBtn" onclick="goProduct(2)">详情</button>
+									</div>
+								</div>
+							</div>
+							<div class="productItem">
+								<div class="productItemTitle">去中心化合约交易所</div>
+								<div class="productItemMsg">EOTC去中心化合约交易所是一套允许任何金融产品发行和交易的协议，EOTC采取离链订单和链上撮合，以创…</div>
+								<div class="productItemDetils">
+									<div class="productItemDetilsImg">
+										<img src="img/contractImg.png">
+									</div>
+									<div class="productItemDetilsBtnDiv">
+										<button class="productItemDetilsBtn" onclick="goProduct(3)">详情</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="earnMoney">
+							<div class="earnMoneyMsg">
+								<div class="earnMoneyMsgTitle">链上理财赚币</div>
+								<div class="earnMoneyMsgText">EOTC链上理财赚币是EOTC打造帮助用户发现多种持币产…</div>
+								<div class="rightIcon"><img src="img/rightIcon.png" alt=""></div>
+							</div>
+							<div class="earnMoneyIcon" onclick="goProduct(4)">
+								<img src="img/earnMoneyImg.png" alt="">
+							</div>
+						</div>
+						<div class="otherModules">
+							<div class="otherModulesList">
+								<div class="otherModulesItem">
+									<div class="otherModulesItemTitle">DID去中心化身份系统</div>
+									<div class="otherModulesItemMsg">DID属于统一资源标识符URI的一种，是一个永久不可变的字符串</div>
+									<div class="otherModulesItemImg">
+										<div><img src="img/card.png" alt=""></div>
+										<div class="flexRightIcon" onclick="goProduct(5)"><img
+												src="img/rightIcon.png" alt=""></div>
+									</div>
+								</div>
+								<div class="otherModulesItem">
+									<div class="otherModulesItemTitle">去中心化应用系统</div>
+									<div class="otherModulesItemMsg">EOTC将搭载可以无限扩张的存储链，类似于IPFS系统。</div>
+									<div class="otherModulesItemImg">
+										<div><img src="img/applicationSystem.png" alt=""></div>
+										<div class="flexRightIcon" onclick="goProduct(6)"><img
+												src="img/rightIcon.png" alt=""></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="virtual">
+							<div class="virtualModulesList">
+								<div class="virtualModulesItem">
+									<div class="virtualModulesItemTop">
+										<div class="virtualModulesItemTitle">EOTC NFT</div>
+										<div class="virtualModulesItemImg"><img src="img/nft.png" alt=""></div>
+									</div>
+									<div class="virtualModulesItemMsg">NFT英文全称为Non-Fungible
+										Token,翻译为中文即为：非同质化代币，具有不可分割，不可替代，独一无二的特点。例如加密猫，token化的数字门票或艺术品等等。NFT
+										是基于区块链的私有财产，它完全由用户控制，可自由转移和交易。EOTC
+										NFT主要应用在游戏、艺术品、域名、收藏品、虚拟资产、现实资产、身份等方面。其中目前发展最为迅速的是游戏、艺术品以及域名等。EOTC
+										NFT将打造了视觉艺术，音乐，混合数字艺术等…</div>
+									<div class="rightIcon" onclick="goProduct(7)"><img src="img/rightIcon.png"
+											alt=""></div>
+								</div>
+								<div class="virtualModulesItem">
+									<div class="virtualModulesItemTop">
+										<div class="virtualModulesItemTitle">EOTC 元宇宙</div>
+										<div class="virtualModulesItemImg"><img src="img/metaverse.png" alt=""></div>
+									</div>
+									<div class="virtualModulesItemMsg">
+										元宇宙不是互联网的未来，而是人类的未来。未来芯片技术、网络通信技术、虚拟现实技术（VR/AR/MR/XR）、游戏技术（游戏引擎、游戏代码、多媒体资源）、AI人工智能技术、区块链技术的高速发展，从技术层面上有了极其强大的算力和算法，足以支撑庞大的元宇宙运作。元宇宙是物理世界在虚拟世界数据化的复刻和升级。人们可以在元宇宙逛街吃饭发朋友圈，还可以完成真实世界里不能实现的野心，比如瞬时移动…
+									</div>
+									<div class="rightIcon" onclick="goProduct(8)"><img src="img/rightIcon.png"
+											alt=""></div>
+								</div>
+								<div class="virtualModulesItem">
+									<div class="virtualModulesItemTop">
+										<div class="virtualModulesItemTitle">EOTC DAO</div>
+										<div class="virtualModulesItemImg"><img src="img/dao.png" alt=""></div>
+									</div>
+									<div class="virtualModulesItemMsg">EOTC Decentralized Autonomous
+										Organization是为了治理EOTC所有项目而设立的区块链社区。EOTC DAO
+										允许任何持有一定EOTC代币的人通过提案和投票等方式，对EOTC的所有项目进行治理和仲裁。EOTC
+										DAO通过各种方式达成共识，努力保持EOTC为用户提供安全、稳定、信任的产品和服务。EOTC
+										DAO才是EOTC真正的主人，每一位持有EOTC代币的人都是EOTC的股东，都享有EOTC的所有权益。EOTC DAO是由达成同一个共识…</div>
+									<div class="rightIcon" onclick="goProduct(9)"><img src="img/rightIcon.png"
+											alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contact">
+						<div class="contactTitle centerTitle">
+							<div class="flexRightText">联系我们</div>
+						</div>
+						<div class="contactList">
+							<div class="contactItem">
+								<a href="https://t.me/EOTOTC">
+									<div class="contactItemIcon"><img src="img/Telegram.png" alt=""></div>
+									<div class="contactItemAddress">https://t.me/EOTOTC</div>
+								</a>
+							</div>
+							<div class="contactItem">
+								<a href="https://twitter.com/EOTC9">
+									<div class="contactItemIcon"><img src="img/Twitter.png" alt=""></div>
+									<div class="contactItemAddress">https://twitter.com/EOTC9</div>
+								</a>
+							</div>
+							<div class="contactItem">
+								<!-- <a href="coin@eotc.me"> -->
+									<div class="contactItemIcon"><img src="img/email.png" alt=""></div>
+									<div class="contactItemAddress">客服: coin@eotc.me</div>
+								<!-- </a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bottom"></div>
+	</body>
+	<script src="js/rem.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<!-- <script src="js/head.js"></script> -->
+	<!-- <script src="js/bottom.js"></script> -->
+	<script src="js/home.js?v=1.01"></script>
+
+</html>

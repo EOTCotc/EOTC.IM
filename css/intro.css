@@ -1,0 +1,75 @@
+.introCenter .img img{
+	width: 100%;
+}
+
+.introContent {
+	background-color: #090D16FF;
+}
+
+.introTop {
+	background: url('../img/teamTopBc.png') no-repeat center;
+	background-size: cover;
+	padding: 25px 25px 0px 15px;
+	height: 211px;
+	box-sizing: border-box;
+}
+
+.introTop .title {
+	padding: 20px 0 30px
+}
+
+.introTop .msg {
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 24px;
+}
+
+
+.introCenter{
+	padding: 10px 20px 60px;
+}
+
+.introCenter .contentCenter{
+	display: none;
+}
+
+.introCenter .moreContent{
+	margin-top: 20px;
+}
+
+.introCenter .content{
+	margin-top: 20px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.contentMore{
+	display: flex;
+	align-items: flex-end
+}
+
+.contentMore .text{
+	margin: 20px 5px 0 0;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.contentMore img{
+	line-height: 20px;
+}
+
+.synopsisWhiteBook {
+	margin: 30px 0 10px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #FFFFFF;
+	font-size: 16px;
+	color: #FFFFFF;
+	border-radius: 8px;
+}
+
+.synopsisWhiteBook .text{
+	flex: 1;
+}
