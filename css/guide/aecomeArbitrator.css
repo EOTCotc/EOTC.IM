@@ -3,6 +3,14 @@
 	padding: 0;
 }
 
+.stepImg{
+  width: 100%;
+}
+
+.stepImg img{
+  width: 100%;
+}
+
 img {
 	display: block;
 }
@@ -117,6 +125,14 @@ color: rgba(153,153,153,0.8);
 	margin-bottom: 10px;
 }
 
+.step .title {
+  font-size: 16px;
+  font-weight: bold;  
+  color: #333333;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
 .step .stepText {  
   font-family: Microsoft YaHei-Regular, Microsoft YaHei;
 	margin-bottom: 15px;
@@ -126,8 +142,20 @@ color: rgba(153,153,153,0.8);
   letter-spacing: 1px;
 }
 
+
+.step .stepText .text{ 
+  margin-top: 4px; 
+  font-size: 14px;  
+  color: #999999;
+  line-height: 25px;
+}
+
 .step .b{
   margin-bottom: 0;
+}
+
+.step .stepText .b{
+  margin: 10px 0;
 }
 
 p{
