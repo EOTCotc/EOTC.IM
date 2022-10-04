@@ -48,10 +48,12 @@ img {
 .headCenter {
 	margin: 6px 42px;
 	display: flex;
+  justify-content: center;
 }
 
-.headCenterText {
-	margin-left: 48px;
+.headCenter .headCenterIcon{
+  position: absolute;
+  left: 40px;
 }
 
 .headCenterText {
