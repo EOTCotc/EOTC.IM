@@ -45,7 +45,9 @@ function goDetail(num) {
 	else if (num == 0101004) location.href = 'guide-sellingprocess.html';
 	else if (num == 0101005) location.href = 'identityAuthentication.html';
 	else if (num == 0101006) location.href = 'guide-didcheck.html';
-	else if (num == 0101007) location.href = 'guide-funding.html';
+	else if (num == 0101007) location.href = 'guide-bankCard.html';
+	else if (num == 0101008) location.href = 'guide-WeChat.html';
+	else if (num == 0101009) location.href = 'guide-Alipay.html';
 	else if (num == 0102001) location.href = 'guide-staking.html';
 	else if (num == 0102002) location.href = 'guide-staking2.html';
 	else if (num == 0102003) location.href = 'guide-staking3.html';
