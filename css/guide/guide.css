@@ -159,6 +159,14 @@ img {
 	padding-right: 10px;
 }
 
+.productCenterTitle:nth-last-child(1){
+  padding-right: 0px;
+}
+
+.productCenterTitle:nth-last-child(1) .productCenterTitleText{
+  margin-right: 0px;
+}
+
 .productCenterTitle .productCenterTitleText {
 	color: #666666;
 	padding: 8px 0;
