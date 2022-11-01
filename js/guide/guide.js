@@ -52,6 +52,28 @@ function goDetail(num) {
 	else if (num == 0102002) location.href = 'guide-staking2.html';
 	else if (num == 0102003) location.href = 'guide-staking3.html';
 	else if (num == 0102004) location.href = 'guide-staking4.html';
+	else if (num == 0103001) location.href = 'guide-did1.html';
+	else if (num == 0103002) location.href = 'guide-did2.html';
+	else if (num == 0103003) location.href = 'guide-did3.html';
+	else if (num == 0103004) location.href = 'guide-did4.html';
+	else if (num == 0103005) location.href = 'guide-did5.html';
+	else if (num == 0103006) location.href = 'guide-did6.html';
+	else if (num == 0103007) location.href = 'guide-did7.html';
+	else if (num == 0103008) location.href = 'guide-did8.html';
+	else if (num == 0103009) location.href = 'guide-did9.html';
+	else if (num == 0103010) location.href = 'guide-did10.html';
+	else if (num == 0103011) location.href = 'guide-did11.html';
+	else if (num == 0103012) location.href = 'guide-did12.html';
+	else if (num == 0103013) location.href = 'guide-did13.html';
+	else if (num == 0104001) location.href = 'guide-dao1.html';
+	else if (num == 0104002) location.href = 'guide-dao2.html';
+	else if (num == 0104003) location.href = 'guide-dao3.html';
+	else if (num == 0104004) location.href = 'guide-dao4.html';
+	else if (num == 0104005) location.href = 'guide-dao5.html';
+	else if (num == 0104006) location.href = 'guide-dao6.html';
+	else if (num == 0104007) location.href = 'guide-dao7.html';
+	else if (num == 0104008) location.href = 'guide-dao8.html';
+	else if (num == 0104009) location.href = 'guide-dao9.html';
 }
 
 function GetQueryValue() {
@@ -72,5 +94,8 @@ function addCurClass(obj, objContent, index) {
 		objContent[i].classList.remove('active');
 	}
 	obj[index].classList.add('active');
+	let eleLeft = obj[index].getBoundingClientRect().left;
+	let parentEleScrollLeft = document.getElementsByClassName('productCenterTitleList')[0].scrollLeft;
+	document.getElementsByClassName('productCenterTitleList')[0].scrollTo(eleLeft + parentEleScrollLeft - 100, 0);
 	objContent[index].classList.add('active');
 }
