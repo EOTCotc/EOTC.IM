@@ -52,6 +52,7 @@ function goDetail(num) {
 	else if (num == 0102002) location.href = 'guide-staking2.html';
 	else if (num == 0102003) location.href = 'guide-staking3.html';
 	else if (num == 0102004) location.href = 'guide-staking4.html';
+	else if (num == 0103000) location.href = 'guide-did.html';
 	else if (num == 0103001) location.href = 'guide-did1.html';
 	else if (num == 0103002) location.href = 'guide-did2.html';
 	else if (num == 0103003) location.href = 'guide-did3.html';
