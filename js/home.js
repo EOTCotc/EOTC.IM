@@ -16,7 +16,7 @@ window.onload = function () {
 
 function openRightNav() {
 	let clientHeight = document.documentElement.clientHeight;
-	console.log(clientHeight);
+	//console.log(clientHeight);
 	document.getElementById('head').style.height = clientHeight + 'px';
 	document.getElementsByClassName('openBtn')[0].style.display = 'none';
 	document.getElementsByClassName('closeBtn')[0].style.display = 'block';
